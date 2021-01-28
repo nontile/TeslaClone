@@ -7,7 +7,12 @@ export default function App() {
   return (
     <View style={styles.container}>
 
-      <CatItem />
+      <CatItem 
+        name={"Model 3"}
+        tagline={"Order Online For"}
+        taglineCTA={"Touchless Delivery"}
+        image={require('./assets/images/Model3.png')}
+      />
 
       <StatusBar style="auto" />
     </View>
